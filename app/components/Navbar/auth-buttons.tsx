@@ -14,7 +14,7 @@ export const LoginButton = () => {
 
 export const LogoutButton = () => {
   return (
-    <button onClick={() => {signOut}}>Logout</button>
+    <button onClick={() => {signOut({redirectTo: '/'})}}>Logout</button>
   )
 }
 
